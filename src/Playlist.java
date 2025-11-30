@@ -66,11 +66,10 @@ public class Playlist {
     }
 
     public void setCurrentSong(Song song) {
-        // Cari node yang sesuai di linked list
         SongNode current = first;
         while (current != null) {
             if (current.data == song) {
-                this.currentSong = current; // Ditemukan! Set 'currentSong'
+                this.currentSong = current;
                 System.out.println("Playlist diset ke: " + song.toString());
                 return;
             }
@@ -81,8 +80,5 @@ public class Playlist {
 
     public SongNode getHead() {
         return first;
-        // PENTING: Cek variabel di atas class ini.
-        // Kalau namanya 'head', ganti jadi 'return head;'
-        // Kalau namanya 'first', pakai 'return first;'
     }
 }
