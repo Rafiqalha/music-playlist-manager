@@ -1,18 +1,108 @@
-## Getting Started
+# 🎵 Luxury Music Player (VisionOS Style)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-Modern_UI-4285F4?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-## Folder Structure
+> **"Experience music with depth."**
+> Aplikasi pemutar musik desktop modern dengan antarmuka *Glassmorphism* yang terinspirasi oleh Apple Vision Pro, dibangun menggunakan JavaFX dan Struktur Data murni.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ✨ Tampilan Antarmuka (Preview)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+*(Silakan ganti link gambar di bawah ini dengan screenshot aplikasi aslimu nanti)*
+![App Screenshot](https://github.com/Rafiqalha/music-playlist-manager/assets/placeholder.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🚀 Fitur Utama
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🎨 User Interface (VisionOS Aesthetic)
+- **Glassmorphism:** Panel transparan dengan efek blur dan border halus.
+- **Bento Grid Layout:** Tata letak modular yang rapi dan futuristik.
+- **Floating Controls:** Tombol kontrol melayang (floating capsule) di bagian bawah.
+- **Custom Window:** Title bar kustom (Dark Mode) yang menyatu dengan tema.
+
+### 🎧 Fungsionalitas Player
+- **Format Support:** Memutar file MP3 dengan lancar.
+- **Smart Navigation:** Next, Previous, Play, Pause.
+- **Shuffle Mode:** Mengacak lagu tanpa pengulangan menggunakan algoritma *Fisher-Yates*.
+- **Repeat Mode:** Mengulang lagu atau playlist.
+- **Volume Control:** Slider volume presisi.
+
+### 📂 Manajemen Playlist
+- **Add Music:** Menambahkan file lokal dari komputer.
+- **Delete Music:** Menghapus lagu dari daftar.
+- **History Log:** Melihat riwayat lagu yang baru saja diputar.
+- **Auto-Save:** Daftar lagu tersimpan otomatis (Persistance) menggunakan JSON.
+
+---
+
+## 🧠 Implementasi Struktur Data (Backend Logic)
+
+Proyek ini menerapkan **Struktur Data Murni** (*Manual Implementation*) tanpa bergantung pada Java Collections instan, untuk mendemonstrasikan pemahaman logika algoritma.
+
+| Fitur | Struktur Data | Penjelasan Implementasi |
+| :--- | :--- | :--- |
+| **Playlist Navigation** | **Doubly Linked List** | Memungkinkan traversal dua arah (*Next/Prev*). Setiap lagu adalah `Node` yang memiliki pointer ke lagu sebelum dan sesudahnya. |
+| **Playback History** | **Stack (LIFO)** | Menggunakan prinsip *Last-In First-Out*. Lagu yang terakhir didengar akan muncul paling atas saat pop-up History dibuka. |
+| **Library Storage** | **Array of Objects** | Tempat penyimpanan utama data lagu sebelum diproses ke dalam playlist. |
+| **Shuffle Feature** | **Fisher-Yates Algorithm** | Mengkonversi Linked List ke Array sementara, lalu mengacak indeksnya secara matematis untuk hasil acak yang sempurna. |
+| **Data Persistence** | **JSON Serialization** | Menyimpan struktur data ke file fisik (`json`) agar data tidak hilang saat aplikasi ditutup. |
+
+---
+
+## 🛠️ Teknologi & Library
+
+* **Bahasa:** Java (JDK 21)
+* **Framework UI:** JavaFX
+* **Icons:** Ikonli (Material Design Pack)
+* **Audio Engine:** JLayer (Basic MP3 Support)
+* **Data Handling:** GSON (Google JSON)
+* **Build Tool:** VS Code Java Extension Pack
+
+---
+
+## 📥 Cara Menjalankan Aplikasi (User)
+
+Tidak perlu instalasi coding yang rumit. Cukup unduh versi *Portable*.
+
+1.  Buka tab **[Releases](https://github.com/Rafiqalha/music-playlist-manager/releases)** di repository ini.
+2.  Download file **`VisionMusicPlayer.zip`**.
+3.  Ekstrak (Unzip) foldernya.
+4.  Klik dua kali file **`run.bat`**.
+5.  Selesai! Aplikasi langsung jalan.
+
+*(Catatan: Pastikan komputer sudah terinstall Java/JDK)*
+
+---
+
+## 👨‍💻 Cara Menjalankan Source Code (Developer)
+
+Jika ingin memodifikasi kode:
+
+1.  **Clone** repository ini:
+    ```bash
+    git clone [https://github.com/Rafiqalha/music-playlist-manager.git](https://github.com/Rafiqalha/music-playlist-manager.git)
+    ```
+2.  Buka di **VS Code**.
+3.  Pastikan library di folder `lib` sudah terdeteksi di *Referenced Libraries*.
+4.  Jalankan file `src/Launcher.java`.
+
+---
+
+## 📂 Struktur Folder
+
+```text
+VisionMusicPlayer/
+├── lib/                 # Berisi library eksternal (.jar)
+├── src/                 # Source code utama
+│   ├── assets/          # (Sudah dihapus, diganti Vector Icon)
+│   ├── MusicPlayerFX.java  # Main Class & UI Logic
+│   ├── Playlist.java       # Doubly Linked List Logic
+│   ├── SongStack.java      # Stack Logic
+│   ├── SongLibrary.java    # Array Logic
+│   └── style.css           # Styling VisionOS
+├── README.md            # Dokumentasi ini
+└── ...
