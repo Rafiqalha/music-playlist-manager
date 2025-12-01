@@ -18,12 +18,12 @@
 
 ## 🚀 Fitur Utama
 
-### 🎨 User Interface (VisionOS Aesthetic)
-- **Glassmorphism:** Panel transparan dengan efek blur dan border halus.
-- **Bento Grid Layout:** Tata letak modular yang rapi dan futuristik.
-- **Floating Controls:** Tombol kontrol melayang (floating capsule) di bagian bawah.
-- **Custom Window:** Title bar kustom (Dark Mode) yang menyatu dengan tema.
-
+### 🎨 User Interface (Premium Dark & Gold)
+- **Elegant Dark Theme:** Menggunakan palet warna *Deep Charcoal* yang solid dengan aksen *Gold* (Emas) yang memberikan kesan mewah dan eksklusif.
+- **Modular Grid Layout:** Tata letak berbasis kartu (*Card-based*) yang memisahkan navigasi, pemutar utama, dan antrian lagu dengan rapi dan terstruktur.
+- **High Contrast Visual:** Ikon dan tipografi yang kontras memudahkan navigasi dalam mode gelap tanpa membuat mata lelah.
+- **Custom Window:** Title bar kustom (Frameless) yang didesain menyatu dengan tema aplikasi, menghilangkan batas jendela Windows standar.
+  
 ### 🎧 Fungsionalitas Player
 - **Format Support:** Memutar file MP3 dengan lancar.
 - **Smart Navigation:** Next, Previous, Play, Pause.
