@@ -12,7 +12,10 @@
 ## ✨ Tampilan Antarmuka (Preview)
 
 *(Silakan ganti link gambar di bawah ini dengan screenshot aplikasi aslimu nanti)*
-![App Screenshot](https://github.com/Rafiqalha/music-playlist-manager/assets/placeholder.png)
+![App Screenshot]
+
+<img width="1498" height="937" alt="Screenshot 2025-12-01 082916" src="https://github.com/user-attachments/assets/133535ad-2ea0-4708-99bd-8808bacf9c85" />
+
 
 ---
 
