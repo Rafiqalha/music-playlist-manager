@@ -17,8 +17,6 @@ public class SongLibrary {
         String key = song.getTitle();
         int hashVal = hashFunc(key);
         int startHashVal = hashVal;
-
-        // Linear Probing: cari sel kosong
         while (hashArray[hashVal] != null) {
             ++hashVal;
             hashVal %= arraySize;

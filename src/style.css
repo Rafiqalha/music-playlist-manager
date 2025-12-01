@@ -66,9 +66,7 @@
 .play-btn-gold:hover {
     -fx-background-color: #D4AF37;
     -fx-text-fill: #000000;
-    /* Icon jadi hitam saat hover gold */
     -fx-effect: dropshadow(gaussian, rgba(212, 175, 55, 0.6), 15, 0.3, 0, 0);
-    /* Gold Glow */
 }
 
 .icon-btn-minimal {
@@ -85,10 +83,8 @@
 
 .slider .track {
     -fx-background-color: #333333;
-    /* Dark Grey Track */
     -fx-background-radius: 2px;
     -fx-pref-height: 4px;
-    /* Sangat tipis */
 }
 
 .slider .thumb {
