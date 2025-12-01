@@ -4,8 +4,9 @@
 ![JavaFX](https://img.shields.io/badge/JavaFX-Modern_UI-4285F4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-> **"Experience music with depth."**
-> Aplikasi pemutar musik desktop modern dengan antarmuka *Glassmorphism* yang terinspirasi oleh Apple Vision Pro, dibangun menggunakan JavaFX dan Struktur Data murni.
+> **"Experience the Golden Standard of Audio."**
+>
+> Nikmati koleksi musikmu dalam balutan antarmuka *Deep Charcoal* dan *Gold* yang memanjakan mata. Aplikasi desktop ini dirancang untuk memberikan pengalaman navigasi yang *seamless*, didukung oleh implementasi Struktur Data murni yang efisien.
 
 ---
 
