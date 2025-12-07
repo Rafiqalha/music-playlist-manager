@@ -1,4 +1,4 @@
-# 🎵 Luxury Music Player (VisionOS Style)
+# Music Player (VisionOS Style)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-Modern_UI-4285F4?style=for-the-badge)
@@ -10,29 +10,29 @@
 
 ---
 
-## ✨ Tampilan Antarmuka (Preview)
+## Tampilan Antarmuka (Preview)
 
 <img width="1498" height="937" alt="Screenshot 2025-12-01 082916" src="https://github.com/user-attachments/assets/133535ad-2ea0-4708-99bd-8808bacf9c85" />
 
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-### 🎨 User Interface (Premium Dark & Gold)
+### User Interface (Premium Dark & Gold)
 - **Elegant Dark Theme:** Menggunakan palet warna *Deep Charcoal* yang solid dengan aksen *Gold* (Emas) yang memberikan kesan mewah dan eksklusif.
 - **Modular Grid Layout:** Tata letak berbasis kartu (*Card-based*) yang memisahkan navigasi, pemutar utama, dan antrian lagu dengan rapi dan terstruktur.
 - **High Contrast Visual:** Ikon dan tipografi yang kontras memudahkan navigasi dalam mode gelap tanpa membuat mata lelah.
 - **Custom Window:** Title bar kustom (Frameless) yang didesain menyatu dengan tema aplikasi, menghilangkan batas jendela Windows standar.
   
-### 🎧 Fungsionalitas Player
+### Fungsionalitas Player
 - **Format Support:** Memutar file MP3 dengan lancar.
 - **Smart Navigation:** Next, Previous, Play, Pause.
 - **Shuffle Mode:** Mengacak lagu tanpa pengulangan menggunakan algoritma *Fisher-Yates*.
 - **Repeat Mode:** Mengulang lagu atau playlist.
 - **Volume Control:** Slider volume presisi.
 
-### 📂 Manajemen Playlist
+### Manajemen Playlist
 - **Add Music:** Menambahkan file lokal dari komputer.
 - **Delete Music:** Menghapus lagu dari daftar.
 - **History Log:** Melihat riwayat lagu yang baru saja diputar.
@@ -40,7 +40,7 @@
 
 ---
 
-## 🧠 Implementasi Struktur Data (Backend Logic)
+## Implementasi Struktur Data (Backend Logic)
 
 Proyek ini menerapkan **Struktur Data Murni** (*Manual Implementation*) tanpa bergantung pada Java Collections instan, untuk mendemonstrasikan pemahaman logika algoritma.
 
@@ -54,7 +54,7 @@ Proyek ini menerapkan **Struktur Data Murni** (*Manual Implementation*) tanpa be
 
 ---
 
-## 🛠️ Teknologi & Library
+## Teknologi & Library
 
 * **Bahasa:** Java (JDK 21)
 * **Framework UI:** JavaFX
@@ -65,7 +65,7 @@ Proyek ini menerapkan **Struktur Data Murni** (*Manual Implementation*) tanpa be
 
 ---
 
-## 📥 Cara Menjalankan Aplikasi (User)
+## Cara Menjalankan Aplikasi (User)
 
 Tidak perlu instalasi coding yang rumit. Cukup unduh versi *Portable*.
 
@@ -79,7 +79,7 @@ Tidak perlu instalasi coding yang rumit. Cukup unduh versi *Portable*.
 
 ---
 
-## 👨‍💻 Cara Menjalankan Source Code (Developer)
+## Cara Menjalankan Source Code (Developer)
 
 Jika ingin memodifikasi kode:
 
@@ -93,7 +93,7 @@ Jika ingin memodifikasi kode:
 
 ---
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```text
 VisionMusicPlayer/
